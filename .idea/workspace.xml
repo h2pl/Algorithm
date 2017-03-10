@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="869b98c8-a5f0-4a7b-bed0-7b401e4b1910" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practice/resolveNum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practice/GcdAndLcm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithm.iml" afterPath="$PROJECT_DIR$/Algorithm.iml" />
     </list>
     <ignored path="sort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +29,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#134#135#0" expanded="false" />
+                <element signature="e#164#165#0" expanded="false" />
+                <element signature="e#338#339#0" expanded="false" />
+                <element signature="e#374#375#0" expanded="false" />
+                <element signature="e#1420#1421#0" expanded="false" />
+                <element signature="e#1451#1452#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,14 +56,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1380">
               <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="43" />
-              <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,14 +104,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resolveNum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resolveNum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/resolveNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#604#605#0" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GcdAndLcm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practice/GcdAndLcm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,16 +138,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="norecur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/norecur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/sort/dividesort.java" />
         <option value="$PROJECT_DIR$/src/practice/monkey.java" />
         <option value="$PROJECT_DIR$/src/practice/resolveNum.java" />
+        <option value="$PROJECT_DIR$/src/practice/GcdAndLcm.java" />
       </list>
     </option>
   </component>
@@ -392,27 +392,7 @@
       <recent name="D:\JAVA_BASIC\Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.resolveNum">
-    <configuration default="false" name="dividesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sort.dividesort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.GcdAndLcm.test">
     <configuration default="false" name="monkey.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -427,32 +407,6 @@
       <option name="MAIN_CLASS_NAME" value="practice.monkey" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="monkey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.monkey" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -503,6 +457,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="practice" />
       <option name="MAIN_CLASS_NAME" value="practice.resolveNum" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GcdAndLcm.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.GcdAndLcm" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GcdAndLcm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.GcdAndLcm" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -762,19 +768,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.dividesort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.monkey.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.monkey" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.resolveNum.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.resolveNum" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.monkey.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.resolveNum.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.resolveNum" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GcdAndLcm.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GcdAndLcm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.resolveNum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.resolveNum.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.monkey.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.monkey" />
-        <item index="4" class="java.lang.String" itemvalue="Application.dividesort" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GcdAndLcm.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GcdAndLcm" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.resolveNum" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.resolveNum.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.monkey.test" />
       </list>
     </recent_temporary>
   </component>
@@ -795,35 +801,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="monkey - 2017.03.10 at 19h 06m 06s.xml">
-      <configuration name="monkey" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm - 2017.03.10 at 19h 40m 49s.xml">
+      <configuration name="GcdAndLcm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="monkey_test - 2017.03.10 at 19h 06m 22s.xml">
-      <configuration name="monkey.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm - 2017.03.10 at 19h 43m 12s.xml">
+      <configuration name="GcdAndLcm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum - 2017.03.10 at 19h 25m 58s.xml">
-      <configuration name="resolveNum" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm - 2017.03.10 at 19h 44m 55s.xml">
+      <configuration name="GcdAndLcm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum - 2017.03.10 at 19h 27m 21s.xml">
-      <configuration name="resolveNum" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 43m 22s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 25m 33s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 43m 30s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 25m 41s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 45m 01s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 25m 46s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 53m 08s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 26m 09s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 53m 47s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 26m 17s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 54m 14s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="resolveNum_test - 2017.03.10 at 19h 26m 22s.xml">
-      <configuration name="resolveNum.test" configurationId="JUnit" />
+    <history-entry file="GcdAndLcm_test - 2017.03.10 at 19h 54m 20s.xml">
+      <configuration name="GcdAndLcm.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -841,12 +847,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.50630915" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.49369085" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -855,7 +861,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49109414" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.519084" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -878,7 +884,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/GcdAndLcm.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -887,14 +901,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/datastructure/linkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1153,7 +1159,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#134#135#0" expanded="false" />
+            <element signature="e#164#165#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,14 +1209,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="43" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1217,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#134#135#0" expanded="false" />
+            <element signature="e#164#165#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,11 +1283,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/resolveNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#604#605#0" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/GcdAndLcm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
         </state>
       </provider>
