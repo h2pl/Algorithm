@@ -7,18 +7,17 @@ import org.junit.Test;
  */
 public class resolveNum {
     void resolve(int num){
-       int i,x;
+       int i;
         for (i=2;i<num;i++){
-            if(num%i==0){
-
-                if(isprime(num/i))
-                {
-                    System.out.println(num/i);
-                }
-                else resolve(num/i);
-
+            while (num%i==0){
+                System.out.println(i);
+                num=num/i;
             }
         }
+            if(num!=1){
+                System.out.println(num);
+            }
+
 
     }
 
@@ -34,7 +33,7 @@ public class resolveNum {
     }
     @Test
     public void test(){
-        resolve(36);
+        resolve(144);
     }
 
 }
