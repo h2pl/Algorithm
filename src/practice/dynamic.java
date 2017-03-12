@@ -38,6 +38,8 @@ public class dynamic {
         }
     }
 
+
+
     @Test
     public void test(){
         System.out.println(shrink(10));

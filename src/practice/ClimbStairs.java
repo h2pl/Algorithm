@@ -1,6 +1,5 @@
 package practice;
 
-import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -32,8 +31,21 @@ public class ClimbStairs {
         }
         return 0;
     }
-    @Test
+    public int fib06(int n){
+        if(n==1||n==2){
+            return n;
+        }else{
+            double sqrtFive=Math.sqrt(5);
+            n++;
+            double a=Math.pow((1+sqrtFive)/2, n);
+            double b=Math.pow((1-sqrtFive)/2, n);
+            double result=1/sqrtFive*(a-b);
+            return (int) Math.floor(result);
+        }
+    }
+
+
     public void test(){
-       System.out.println(climbstairs(10));
+       System.out.println(fib06(10));
     }
 }
