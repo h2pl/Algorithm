@@ -24,7 +24,7 @@ public class EvenStr {
             for(int j=0;j<len;j++){
                 String sb=temp0.substring(j,j+i);
                 if(iseven(sb)){
-                    count++
+                    count++;
 
                 }
             }
