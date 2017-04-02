@@ -21,4 +21,16 @@ public class input {
 
 
     }
+
+    void SomeNumOneLine(){
+
+        Scanner input = new Scanner(System.in);
+        String temp = input.nextLine();
+        String[] ss = temp.trim().split(" ");
+        int []num=new int[ss.length];
+        for(int i=0;i<num.length;i++){
+            num[i]=Integer.parseInt(ss[i]);
+        }
+
+    }
 }
