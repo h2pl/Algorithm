@@ -5,8 +5,6 @@ package exam4;
  */
 public class Rectangle {
     public static void main(String []args) {
-        double a=6.0000;
-        java.text.DecimalFormat df = new java.text.DecimalFormat(".00000");
-        System.out.println(df.format(a));
+       System.out.println(3);
     }
 }
