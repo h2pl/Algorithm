@@ -6,6 +6,17 @@ import java.util.Scanner;
  * Created by 周杰伦 on 2017/3/29.
  */
 public class input {
+    public static void 输入两个数n和k_n个数组大小为k(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String temp = input.nextLine();
+        String[] ss = temp.trim().split(" ");
+        int n = Integer.parseInt(ss[0]);
+        for(int i = 0;i < n;i ++){
+            String temp1 = input.nextLine();
+
+        }
+    }
+
     public static void 输入两个数(String[] args) {
         Scanner input = new Scanner(System.in);
         String temp = input.nextLine();
