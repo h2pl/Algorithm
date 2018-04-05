@@ -25,6 +25,7 @@ public class Tencent6 {
 				break;
 			}
 		}
+
 		System.out.println(res);
 	}
 }
