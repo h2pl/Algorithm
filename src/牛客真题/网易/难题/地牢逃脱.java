@@ -1,4 +1,4 @@
-package 牛客真题.网易;
+package 牛客真题.网易.难题;
 
 import java.util.Scanner;
 
