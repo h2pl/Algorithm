@@ -5,7 +5,42 @@ import java.util.*;
 /**
  * Created by 周杰伦 on 2018/5/22.
  */
-public class 构造队列 {
+
+
+//    楼主的方法很巧妙,利用了逆向思维，下面我对楼主的思路做一个详细的分析
+//    首先根据题目要求我们要构造的队列是这样子的,将队头的数拿到（注意是拿到）队尾，然后再弹出队头的数,这样子下去最终弹出来的序列是1到n
+//    那么我们可以逆向去考虑，从结果去倒推,比如我们的n=3，最后的连续操作是将3从队头拿到队尾，然后再弹出队头3（亦是队尾，因为队列里面就一个元素了），那我们倒过来就是将3插入队头（对应弹出操作）然后将3从队尾拿到队头
+//    我们再看倒数第二次连续操作是将3从队头拿到队尾，然后再弹出队头2，倒过来就是2插入队头，然后将3从队尾拿到队头
+//    倒数第三次连续操作是将2从队头拿到队尾，然后再弹出队头1，倒过来就是1插入队头，然后将2从队尾拿到队头
+
+//import java.util.LinkedList;
+//import java.util.Scanner;
+//    public class NewTest{
+//    public static LinkedList<Integer> func(int n){
+//        LinkedList<Integer> help=new LinkedList<Integer>();
+//        for(int i=n;i>=1;i--){
+//            help.addFirst(i);
+//            help.addFirst(help.removeLast());
+//        }
+//        return help;
+//    }
+//    public static void main(String[] args){
+//        int t;
+//        Scanner scan = new Scanner(System.in);
+//        t=scan.nextInt();
+//        int n;
+//        LinkedList<Integer> res;
+//        while(t-->0){
+//            n=scan.nextInt();
+//            res=func(n);
+//            for(int i=0;i<n-1;i++){
+//                System.out.print(res.removeFirst()+" ");
+//            }
+//            System.out.println(res.removeFirst());
+//        }
+//    }
+//    }
+public class 构造队列{
     //错误
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
