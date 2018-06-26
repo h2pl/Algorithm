@@ -1,6 +1,5 @@
-package 牛客真题.笔试16年.美团;
+package 牛客往年真题.笔试16年.美团;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
