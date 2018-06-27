@@ -10,6 +10,7 @@ public class 八皇后 {
         eightQueen();
     }
     public static void eightQueen() {
+        //八皇后用回溯法
         int [][]arr = new int[8][8];
         int [][]visit = new int[8][8];
         int []cnt = new int[1];
