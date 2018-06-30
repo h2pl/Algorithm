@@ -14,10 +14,10 @@ public class 从尾到头打印链表 {
         }
         printReverse(head);
     }
-    public static void printReverse(Node node) {
-        if (node.next != null) {
-            printReverse(node.next);
+        public static void printReverse(Node node) {
+            if (node.next != null) {
+                printReverse(node.next);
+            }
+            System.out.print(node.val + " ");
         }
-        System.out.print(node.val + " ");
-    }
 }
