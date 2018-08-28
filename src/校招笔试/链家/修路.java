@@ -26,5 +26,5 @@ public class 修路 {
             }
             System.out.println(sum-min);
         }
-    
+
 }
